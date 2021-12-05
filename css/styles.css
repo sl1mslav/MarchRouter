@@ -1,6 +1,6 @@
 @keyframes part-line {
     from {
-        opacity: 65%;
+        opacity: 60%;
     }
     to {
         opacity: 100%;
@@ -17,7 +17,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(151, 206, 255);
+    background-color: rgb(192, 216, 236);
 }
 .imgbox {
     position:relative;
