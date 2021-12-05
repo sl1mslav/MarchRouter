@@ -11,23 +11,19 @@
 <body>
 
     <div class="page">
-
-        <div class="search-box">
-            <table class="elementsContainer">
-                <tr>
-                    <td>
-                        <input type="text" placeholder="Search" class="search">
-                    </td>
-                    <td>
-                        <a href="#">
-                            <i class="material-icons">search</i>
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
         <div class="imgbox">
+            <div class="search-box">
+                <table class="elementsContainer">
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Найти кабинет..." class="search" value="" id="searcher" onchange="searchByCab()">
+                        </td>
+                        <td>
+                            <i class="material-icons" onlick="searchByCab">search</i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <svg class="center-fit" width="3645" height="1842" viewBox="0 0 3645 1842" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M269 1060V1374" stroke="black" stroke-width="2" />

@@ -5,3 +5,7 @@ function hideAndShow(id) {
     }
     document.getElementById(id).style.animation="part-line 1.5s infinite alternate-reverse"   
 }
+function searchByCab() {
+    var searchInput = document.getElementById("searcher").value
+    hideAndShow(searchInput)
+}
